@@ -1,0 +1,95 @@
+.info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translate(0%, -2.5%) scale(1);
+  width: 80%;
+  max-width: 800px;
+  height: 80%;
+  max-height: 600px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  z-index: 100;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.info.open {
+  transform: translate(0%, 0%) scale(0);
+}
+
+.info-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Medium";
+}
+
+.info-list li {
+  margin-bottom: 20px;
+}
+
+.info-list h3 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  
+}
+
+.info-list h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.info-list p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.info-list ul {
+  margin-left: 20px;
+}
+
+.info-list ul li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.info-btn {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.info-btn:hover {
+  background-color: #dddddd;
+}
+
+hr {
+  height: 3px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info-list h3 {
+  text-align: center;
+}
+.info-list h4,
+.info-list p,
+.info-list ul li{margin-left:50px;}
