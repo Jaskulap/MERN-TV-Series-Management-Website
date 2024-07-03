@@ -1,4 +1,4 @@
-# rep
+# Info
 
 1. Wprowadzenie
 Aplikacja ta służy do śledzenia i organizacji seriali, umożliwiając użytkownikom dodawanie seriali, zaznaczanie obejrzanych odcinków, śledzenie statystyk oraz zamieszczanie komentarzy, które mogą być odczytywane przez innych użytkowników.
